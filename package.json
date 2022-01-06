@@ -1,7 +1,9 @@
-{
+{  "name":"practice-nodejscsv",
+   "version": "1.0.0",
+   "license": "MIT",
    "scripts": {
-      "dev": "clear && nodemon ./src/index.ts",
-      "start": "tsc && node ./build/index.js"
+      "dev": "clear && nodemon ./src/server.ts",
+      "start": "tsc && node ./build/server.js"
    },
    "dependencies": {
       "@prisma/client": "^3.7.0",
