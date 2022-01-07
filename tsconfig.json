@@ -4,14 +4,14 @@
     "module": "commonjs",
     "rootDir": "./src",
     "outDir": "./build",
-    "sourceMap": true,
+    "sourceMap": true, //Precisei passar para true, pois o estava exigindo a tipagem de Buffer para file
     "removeComments": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "strict": false,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    // "noImplicitAny": false,
+    "noImplicitAny": false,
     "typeRoots": ["./src/@types", "node_modules/@types"]
   }
 }
