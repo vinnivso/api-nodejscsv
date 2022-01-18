@@ -11,6 +11,13 @@ API para receber Request de "file.csv" - Typescript Back End
 ==========================
 
 
+#### Configurando um banco de dados para testar a solução
+- Criar um arquivo .env na root do projeto, ou seja, onde encontra-se o package.json.
+- Inserir as informações abaixo no arquivo .env com seus respectivos valores:
+
+DATABASE_URL= "URL do DB (Postgres)"<br/>
+SHADOW_DATABASE_URL = "URL de uma SHADOW DB, utilize isso caso esteja usando o Heroku"<br/>
+
 #### Solução
 Rode os seguintes comandos dentro da pasta que estiver com o package.json.
 - npm i
